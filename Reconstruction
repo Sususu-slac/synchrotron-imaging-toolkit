@@ -1,0 +1,12 @@
+# Reconstruction
+
+This folder contains tools and scripts for synchrotron laminography and tomography reconstruction.
+
+Main functions include:
+
+- HDF5 data loading and checking
+- Laminography reconstruction
+- Rotation center testing
+- GUI-based reconstruction workflow
+- Batch reconstruction scripts
+- ...
