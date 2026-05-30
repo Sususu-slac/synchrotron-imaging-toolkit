@@ -1,6 +1,6 @@
 # SAM3 Fine-tuning Workflow in WSL
 
-This guide describes a simple workflow for fine-tuning SAM3 with a custom COCO-like dataset in a WSL environment.
+This guide describes a workflow for fine-tuning SAM3 with a custom COCO-like dataset in a WSL environment.
 
 The overall pipeline is:
 
@@ -20,16 +20,6 @@ flowchart LR
     A[Modify YAML Configuration] --> B[Train SAM3 Model]
     B --> C[Convert Checkpoint Format]
     C --> D[Test Converted Checkpoint]
-```
-
-A more detailed version:
-
-```mermaid
-flowchart LR
-    A[Modify YAML File<br/>Dataset path, output folder,<br/>class name, epochs, checkpoint] 
-    --> B[Train SAM3<br/>Generate training checkpoint]
-    --> C[Convert Checkpoint<br/>Convert to SAM3-compatible format]
-    --> D[Test Checkpoint<br/>Run text-prompt segmentation]
 ```
 
 ---
