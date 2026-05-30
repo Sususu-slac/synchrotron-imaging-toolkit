@@ -20,7 +20,7 @@ reconstruction/
 Recommended usage:
 
 - Use `laminography_recon.py` for normal reconstruction work.
-- Use `recon_utilities.py` as a helper library.
+- Use `recon_utilities.py` as a utility toolbox.
 - Use `crazyrecon.py` only for testing or experimental batch reconstruction.
 
 ---
