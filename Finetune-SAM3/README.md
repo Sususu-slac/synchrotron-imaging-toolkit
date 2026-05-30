@@ -55,7 +55,7 @@ It is recommended to keep the target class name consistent across the dataset, Y
 Open the YAML configuration file:
 
 ```text
-your_path/sam3/sam3/train/configs/roboflow_v100/roboflow_v100_full_ft_100_images.yaml
+your_path/sam3/sam3/train/configs/roboflow_v100/roboflow_v100_full_ft_100_images.yaml(or your yaml file name)
 ```
 
 The main parameters that usually need to be modified are listed below.
@@ -67,7 +67,7 @@ The main parameters that usually need to be modified are listed below.
 Modify the dataset root path:
 
 ```yaml
-roboflow_vl_100_root: your_path/NMC_particle_dataset
+roboflow_vl_100_root: your_path/your_dataset_name
 ```
 
 ---
@@ -77,7 +77,7 @@ roboflow_vl_100_root: your_path/NMC_particle_dataset
 Modify the experiment log directory:
 
 ```yaml
-experiment_log_dir: your_path/experiments/nmc_particle_sam3_test_001
+experiment_log_dir: your_path/experiments/your_folder_name
 ```
 
 Training logs and checkpoints will be saved in this folder.
