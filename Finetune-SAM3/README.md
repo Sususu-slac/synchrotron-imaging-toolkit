@@ -5,7 +5,7 @@ This guide describes a workflow for fine-tuning SAM3 with a custom COCO-like dat
 The overall pipeline is:
 
 ```text
-Modify YAML Configuration
+→ Modify YAML Configuration
 → Train SAM3 Model
 → Convert Checkpoint Format
 → Test Converted Checkpoint
@@ -68,15 +68,6 @@ Modify the dataset root path:
 
 ```yaml
 roboflow_vl_100_root: your_path/NMC_particle_dataset
-```
-
-This directory should contain:
-
-```text
-train/images
-train/annotations.json
-val/images
-val/annotations.json
 ```
 
 ---
