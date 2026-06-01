@@ -1,6 +1,6 @@
 # Laminography Reconstruction Toolkit
 
-A simple GUI toolkit for synchrotron tomography and laminography reconstruction using **TomoCuPy**.
+A GUI toolkit for synchrotron tomography and laminography reconstruction using **TomoCuPy**.
 Tomocupy website https://tomocupy.readthedocs.io/en/latest/
 
 This toolkit helps users load HDF5 datasets, preview projection images, search reconstruction parameters, and run TomoCuPy reconstruction commands through a user-friendly GUI.
