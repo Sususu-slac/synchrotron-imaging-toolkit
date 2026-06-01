@@ -4,7 +4,7 @@ A GUI toolkit for synchrotron tomography and laminography reconstruction using T
 
 Tomocupy website https://tomocupy.readthedocs.io/en/latest/
 
-This toolkit helps users load HDF5 datasets, preview projection images, search reconstruction parameters, and run TomoCuPy reconstruction commands through a user-friendly GUI.
+This toolkit helps users load HDF5 datasets, preview projection images, search reconstruction parameters, and run reconstruction through a user-friendly GUI.
 
 ---
 
