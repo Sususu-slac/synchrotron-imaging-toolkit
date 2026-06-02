@@ -1,4 +1,4 @@
-# tomocupy-recon skill (repo bundle)
+# laminography skill (repo bundle)
 
 This repository bundle is intended to be uploaded to GitHub as-is.
 
