@@ -161,7 +161,7 @@ checkpoint_path: your_path/experiments/nmc_particle_sam3_test_001/checkpoints/ch
 
 ## 3. Start Training
 
-Run the training command in WSL:
+Run the training command in WSL2(local GPU):
 
 ```bash
 cd your_path/sam3
