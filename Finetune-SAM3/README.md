@@ -1,6 +1,6 @@
 # SAM3 Fine-tuning Workflow in WSL
 
-This guide describes a workflow for fine-tuning SAM3 with a custom COCO-like dataset in a WSL environment.
+This guide describes a workflow for fine-tuning SAM3 with a custom COCO-like dataset in a WSL2 environment.
 
 The overall pipeline is:
 
